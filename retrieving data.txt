@@ -27,3 +27,60 @@ SELECT
 DISTINCT(customer_name)
 
 FROM supershop;
+
+-- Limiting Results .............................................. 
+
+SELECT
+product_name,
+price,
+amount
+
+FROM supershop
+LIMIT 5;
+
+SELECT
+product_name,
+price,
+amount
+
+FROM supershop
+LIMIT 5 OFFSET 1; -- offset 0 means first row...... 
+
+-- inline comment..............
+
+# another form of comment......
+
+/* multiline 
+comment */
+
+
+
+# Challenges......................... 
+
+/* 1. Write a SQL statement to retrieve all customer IDs (cust_id) from the
+Customers table. */
+
+SELECT customer_id
+FROM supershop;
+
+
+/* 2. he OrderItems table contains every item ordered (and some were ordered multiple times).
+Write a SQLstatement to retrieve a list of the products
+(prod_id) ordered (not every order, just a unique list of products). Here’s a
+hint: you should end up with seven unique rows displayed. */
+
+SELECT DISTINCT(order_id)
+FROM supershop;
+
+/* Write a SQLstatement that retrieves all columns from the Customers table
+and an alternate SELECT that retrieves just the customer ID. Use comments to
+comment out one SELECT so as to be able to run the other. (And, of course,
+test both statements.) */
+
+-- SELECT *
+SELECT customer_id
+FROM supershop
+
+# ................The End ................
+
+
