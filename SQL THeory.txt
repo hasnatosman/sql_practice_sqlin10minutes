@@ -29,6 +29,14 @@ restricts (or allows) specific data in that column.
 What is keyword?
 A reserved word that is part of the SQL language.
 
+What is clause and statement in SQL?
+A statement is the query and the clause is the condition of the statement.
+Clauses are in-built functions available to us in SQL. 
+With the help of clauses, we can deal with data easily stored in the table. 
+Clauses help us filter and analyze data quickly. 
+When we have large amounts of data stored in the database, 
+we use Clauses to query and get data required by the user.
+
 
 
 
