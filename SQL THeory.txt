@@ -26,6 +26,9 @@ What is data type?
 A type of allowed data. Every table column has an associated datatype that
 restricts (or allows) specific data in that column.
 
+What is keyword?
+A reserved word that is part of the SQL language.
+
 
 
 
