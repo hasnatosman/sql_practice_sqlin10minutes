@@ -1,0 +1,6 @@
+-- Retrieving Individual Columns..............................
+
+SELECT 
+customer_name
+
+FROM supershop;
