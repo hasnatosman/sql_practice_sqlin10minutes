@@ -19,3 +19,11 @@ FROM supershop;
 SELECT *
 
 FROM supershop;
+
+-- Retrieving Distinct Rows ...................................
+
+SELECT 
+
+DISTINCT(customer_name)
+
+FROM supershop;
