@@ -22,6 +22,10 @@ A SQL statement is a set of instruction that consists of identifiers,
 parameters, variables, names, data types, and SQL reserved words that 
 compiles successfully.
 
+What is data type?
+A type of allowed data. Every table column has an associated datatype that
+restricts (or allows) specific data in that column.
+
 
 
 
