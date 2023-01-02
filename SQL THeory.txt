@@ -37,6 +37,10 @@ Clauses help us filter and analyze data quickly.
 When we have large amounts of data stored in the database, 
 we use Clauses to query and get data required by the user.
 
+What is wildcard?
+
+Wildcard is special characters used to match  parts of a value..
+
 
 
 
